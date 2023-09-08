@@ -1,0 +1,78 @@
+body{
+   
+   background-color: dimgray;
+   padding-top: 100px;
+   padding-left: 300px;
+   padding-right: 300px;
+   
+    
+}
+.bag{
+    background-color: white;
+    align-items: center;
+    border-radius: 100px;
+    border: solid;
+    
+}
+.imgs{
+    height: 180px;
+    width: 180px;
+    padding-left: 375px;
+    padding-top: 50px;
+   
+}
+#co{
+    color: lightslategrey;
+    font-family: sans-serif;
+}
+h2{
+    font-family: sans-serif;
+}
+button{
+   background-color: dodgerblue;
+   height: 40px;
+   width: 90px;
+   border-radius: 10px;
+   color: white;
+
+}
+.but{
+    padding-left: 420px;
+}
+/* .icons{
+    display: inline-block;
+    padding-left: 350px;
+    padding-top: 50px;
+} */
+.tweet{
+    height: 40px;
+    width: 40px;
+    padding-right: 80px;
+}
+.face{
+    height: 40px;
+    width: 40px;
+}
+.insta{
+    height: 40px;
+    width: 40px;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    /* padding-left: 10px; */
+    justify-content: space-evenly;
+
+  }
+  
+  .flex-container > div {
+    /* background-color: #f1f1f1; */
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    /* font-size: 30px; */
+    align-content: stretch;
+    text-align: center;
+    line-height: 38px;
+  }
